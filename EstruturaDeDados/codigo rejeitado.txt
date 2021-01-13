@@ -1,0 +1,32 @@
+Ax1P = AxPalavra;
+					cout << "\n 145 Ax1P " << Ax1P->palavra<< "\n";
+					Ax2P = AxPalavra->pPalavras;
+					cout << "\n 147 Ax2P " << Ax2P->palavra<< "\n";
+					if(Ax2P->pPalavras!=NULL)
+						Ax3P = Ax2P->pPalavras;	
+					else
+						Ax3P = NULL;
+					cout << "\n 149 Ax3P " << Ax3P->palavra<< "\n";
+					Ax2P->pPalavras = Ax1P;
+					if(Ax3P!=NULL){
+						Ax1P->pPalavras = Ax3P;
+					}
+					else{
+						Ax1P->pPalavras = NULL;
+					}
+					cout << "\n 154 Ax1P->palavra " << Ax1P->palavra << "\n";
+					AxPalavra = Ax2P;
+					if(c==0){
+						AxLetra->pLPalavras = Ax2P; //AxPalavra;
+						cout << "\n 168 AxLetra->pLPalavras " << AxLetra->pLPalavras->palavra << "\n\n";	
+					}
+					c++;
+					//AxPalavra = Ax1P;
+					//AxPalavra->pPalavras = Ax2P;
+					
+				}
+				else{
+					AxPalavra = AxPalavra->pPalavras;	
+				}
+				cout << "\n 160 AxPalavra: " << AxPalavra->palavra << "\n\n";
+				system("pause");

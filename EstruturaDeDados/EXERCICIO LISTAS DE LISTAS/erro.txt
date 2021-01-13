@@ -1,0 +1,47 @@
+*******************************************************************************
+*                             vs: 1.0                                         *
+*                 DICIONARIO DO NARIO TADS 2016                               *
+*                         sem ordenação                                       *
+*        Imprimindo as listas                                                 *
+*        LISTAS DE PALAVRAS DA LETRA: R                                       *
+*         - Ru                                                                *
+*         - Ro                                                                *
+*         - Ri                                                                *
+*         - Re                                                                *
+*         - Ra                                                                *
+*                                                                             *
+*        Pressione qualquer tecla para continuar. . . *****                   *
+*                                                                             *
+ 127 ordenaBS                                                                 *
+ 131 while(AxLetra!=NULL)                                                     *
+ 134 while(c!=0)                                                              *
+ 138 while(AxPalavra->pPalavras!=NULL)                                        *
+ 145 Ax1P Ru                                                                  *
+ 147 Ax2P Ro                                                                  *
+ 149 Ax3P Ri                                                                  *
+ 154 Ax1P->palavra Ru                                                         *
+ 168 AxLetra->pLPalavras->palavra Ro                                          *
+ 160 AxPalavra: RuPressione qualquer tecla para continuar. . .
+
+ 138 while(AxPalavra->pPalavras!=NULL)
+ 145 Ax1P Ru
+ 147 Ax2P Ri
+ 149 Ax3P Re
+ 154 Ax1P->palavra Ru
+ 160 AxPalavra: RuPressione qualquer tecla para continuar. . .
+
+ 138 while(AxPalavra->pPalavras!=NULL)
+ 145 Ax1P Ru
+ 147 Ax2P Re
+ 149 Ax3P Ra
+ 154 Ax1P->palavra Ru
+ 160 AxPalavra: RuPressione qualquer tecla para continuar. . .
+
+ 138 while(AxPalavra->pPalavras!=NULL)
+ 145 Ax1P Ru
+ 147 Ax2P Ra
+ 149 Ax3P Pressione qualquer tecla para continuar. . .
+
+--------------------------------
+Process exited after 150.1 seconds with return value 3221225477
+Pressione qualquer tecla para continuar. . .

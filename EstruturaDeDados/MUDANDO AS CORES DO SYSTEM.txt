@@ -1,0 +1,19 @@
+system("color XX")
+Números refentes as cores que pode ser digitado nos parâmetros f e g :
+
+0 – preto
+1 – Azul
+2 – Verde
+3 – Cian
+4 – Vermelho
+5 – Roxo
+6 – Amarelo
+7 – Branco
+8 – Cinza
+9 – Azul claro
+A – Verde claro
+B – Cian claro
+C – Vermelho claro
+D – Roxo claro
+E – Amarelo claro
+F – Branco claro

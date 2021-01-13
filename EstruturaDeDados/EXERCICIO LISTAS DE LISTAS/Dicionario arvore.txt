@@ -1,0 +1,2 @@
+As letras estão em listas Duplamente encadeadas
+Converta cada letra em um nó da arvore
