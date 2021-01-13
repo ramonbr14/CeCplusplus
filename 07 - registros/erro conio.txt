@@ -1,0 +1,7 @@
+==prog.cpp:4:19: error: conio.h: No such file or directory
+==prog.cpp: In function 'void Ccurso()':
+==prog.cpp:65: error: 'struct std::istream' has no member named 'ingnoe'
+==prog.cpp:66: error: expected `;' before 'cout'
+==prog.cpp:67: error: no matching function for call to 'std::basic_istream<char, std::char_traits<char> >::getline(char [50])'
+==/usr/include/c++/4.3/istream:598: note: candidates are: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::getline(_CharT*, std::streamsize, _CharT) [with _CharT = char, _Traits = std::char_traits<char>]
+==/usr/include/c++/4.3/istream:409: note:std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::getline(_CharT*, std::streamsize) [with _CharT = char, _Traits = std::char_traits<char>]
